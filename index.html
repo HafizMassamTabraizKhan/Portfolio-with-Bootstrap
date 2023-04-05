@@ -185,54 +185,77 @@
             </div>
         </div>
     </section>
-    <section class="About-Myself mt-5 mb-5 py-5 border-top border-end">
-        <div class="container">
-            <div class="row">
-                <div class="col-5">
-                    <h2>About Myself</h2>
-                    <p>Hello I’m a software developer! I can help you build a product , feature or 
-                        website Look through some of my work and experience! If you like what you see 
-                        and have a project you need coded, don’t hesitate to contact me.</p>
-                    <h4 class="text-primary mt-3">LET'S CONNECT</h4>
-                    <div class="d-inline-flex gap-3 mt-2 text-dark">
-                        <a href="#" class="icons text-dark"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#" class="icons text-dark"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#" class="icons text-dark"><i class="fa-sharp fa-solid fa-m"></i></a>
-                        <a href="#" class="icons text-dark"><i class="fa-brands fa-github"></i></a>
-                        <a href="#" class="icons text-dark"><i class="fa-solid fa-hand-peace"></i></a>
-                    </div>
-                    <button class="btn btn-outline-primary mt-4 d-block">Get my resume</button>
-                </div>
-                <div class="col">
-                    <div class="Language d-flex justify-content-between px-3 ">
-                        <h4>Languages</h4>
-                        <i class="fa-sharp fa-solid fa-chevron-down"></i>
-                    </div>
-                    <div class=" d-inline-flex justify-content-start px-3 gap-3">
-                        <div class="badge text-dark pt-2 ps-2 pb-2 pe-5">
-                            <img src="images/JavaScipt.png" alt="" width="60rem">
-                            <h5 class="pt-2">JavaScipt</h5>
+
+
+    <section class="About-and-form">
+        <section class="About-Myself mt-5 mb-5 py-5 border-top border-end">
+            <div class="container">
+                <div class="row">
+                    <div class="col-5">
+                        <h2>About Myself</h2>
+                        <p>Hello I’m a software developer! I can help you build a product , feature or 
+                            website Look through some of my work and experience! If you like what you see 
+                            and have a project you need coded, don’t hesitate to contact me.</p>
+                        <h4 class="text-primary mt-3">LET'S CONNECT</h4>
+                        <div class="d-inline-flex gap-3 mt-2 text-dark">
+                            <a href="#" class="icons text-dark"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#" class="icons text-dark"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#" class="icons text-dark"><i class="fa-sharp fa-solid fa-m"></i></a>
+                            <a href="#" class="icons text-dark"><i class="fa-brands fa-github"></i></a>
+                            <a href="#" class="icons text-dark"><i class="fa-solid fa-hand-peace"></i></a>
                         </div>
-                        <div class="badge text-dark pt-2 ps-2 pb-2 pe-5">
-                            <img src="images/HTML.png" alt="" width="60rem">
-                            <h5 class="pt-2">HTML</h5>
-                        </div>
-                        <div class="badge text-dark pt-2 ps-2 pb-2 pe-5">
-                            <img src="images/CSS.png" alt="" width="60rem">
-                            <h5 class="pt-2">CSS</h5>
-                        </div>
+                        <button class="btn btn-outline-primary mt-4 d-block">Get my resume</button>
                     </div>
-                    <div class="Framework d-flex justify-content-between p-3 border-bottom mt-3">
-                        <h4>Frameworks</h4>
-                        <i class="fa-sharp fa-solid fa-chevron-right"></i>
-                    </div>
-                    <div class="Skill d-flex justify-content-between p-3 border-bottom mt-3">
-                        <h4>Skills</h4>
-                        <i class="fa-sharp fa-solid fa-chevron-right"></i>
+                    <div class="col">
+                        <div class="Language d-flex justify-content-between px-3 ">
+                            <h4>Languages</h4>
+                            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class=" d-inline-flex justify-content-start px-3 gap-3">
+                            <div class="badge text-dark pt-2 ps-2 pb-2 pe-5">
+                                <img src="images/JavaScipt.png" alt="" width="60rem">
+                                <h5 class="pt-2">JavaScipt</h5>
+                            </div>
+                            <div class="badge text-dark pt-2 ps-2 pb-2 pe-5">
+                                <img src="images/HTML.png" alt="" width="60rem">
+                                <h5 class="pt-2">HTML</h5>
+                            </div>
+                            <div class="badge text-dark pt-2 ps-2 pb-2 pe-5">
+                                <img src="images/CSS.png" alt="" width="60rem">
+                                <h5 class="pt-2">CSS</h5>
+                            </div>
+                        </div>
+                        <div class="Framework d-flex justify-content-between p-3 border-bottom mt-3">
+                            <h4>Frameworks</h4>
+                            <i class="fa-sharp fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="Skill d-flex justify-content-between p-3 border-bottom mt-3">
+                            <h4>Skills</h4>
+                            <i class="fa-sharp fa-solid fa-chevron-right"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        
+        <section class="form bg-primary text-light">
+            <div class="d-flex flex-column align-items-center p-5 row text-center">
+                    <div class="col-5">
+                        <h2 class="mt-5 pt-5">Contact me</h2>
+                        <p class="mt-4">If you have an application you are interested in developing, a feature that you need 
+                        built or a project that needs coding. I’d love to help with it!</p>
+
+
+                        <form action="https://formspree.io/f/mnqygaap" class="d-flex flex-column align-items-center mt-5 pt-5"
+                            method="POST">
+                            <input type="text" class="form-control mb-3" name="name" placeholder="Name" maxlength="30" required>
+                            <input type="email" class="form-control mb-3" name="email" placeholder="abc@gmail.com" required>
+                            <textarea name="message" class="form-control mb-3" rows="6" placeholder="Write your message here..." maxlength="500" required></textarea>
+                            <button class="btn btn-outline-primary bg-light mt-3 d-block w-50" type="submit">Get in touch</button>
+                        </form>
+                    </div>
+            </div>
+        </section>
     </section>
 </body>
 </html>

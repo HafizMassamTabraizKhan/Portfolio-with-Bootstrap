@@ -25,4 +25,12 @@ body {
 	border-top-right-radius: 100px;
 }
 
+.form{
+	background-image: url('images/contact-form-mobile_bg.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+	border-top-left-radius: 100px;
+}
+
   
