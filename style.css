@@ -10,11 +10,15 @@ body {
 
 .headline {
   background-image: url('images/headlineBackgroundImage.png');
-  background-size: cover;
+  background-size: contain;
 	background-repeat: no-repeat;
   width: auto;
-	height: 70vh;
+	height: 95vh;
 	border-bottom-left-radius: 100px;
+}
+
+.badge {
+	background-color: #ebebff;
 }
 
 .About-Myself .badge {
@@ -23,6 +27,7 @@ body {
 
 .About-Myself {
 	border-top-right-radius: 100px;
+	
 }
 
 .form{
