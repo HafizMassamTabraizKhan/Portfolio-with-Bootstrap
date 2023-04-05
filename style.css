@@ -1,38 +1,38 @@
 * {
-	margin: 0;
-	padding: 0;
-	font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
 body {
-	background-color: #e5e5e5;
+  background-color: #e5e5e5;
 }
 
 .headline {
   background-image: url('images/headlineBackgroundImage.png');
   background-size: contain;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
   width: auto;
-	height: 95vh;
-	border-bottom-left-radius: 100px;
+  height: 95vh;
+  border-bottom-left-radius: 100px;
 }
 
 .badge {
-	background-color: #ebebff;
+  background-color: #ebebff;
 }
 
 .About-Myself .badge {
-	background-color: #f7f7f9;
+  background-color: #f7f7f9;
 }
 
 .About-Myself {
-	border-top-right-radius: 100px;
+  border-top-right-radius: 100px;
 }
 
-.form{
-	background-image: url('images/contact-form-mobile_bg.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: right;
-	border-top-left-radius: 100px;
+.form {
+  background-image: url('images/contact-form-mobile_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-top-left-radius: 100px;
 }
