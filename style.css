@@ -15,4 +15,11 @@ body {
   width: auto;
 	height: 70vh;
 	border-bottom-left-radius: 100px;
-  }
+	border-bottom: 2px solid #cfd8dc;
+}
+
+.badge {
+	background-color: #ebebff;
+}
+
+  
